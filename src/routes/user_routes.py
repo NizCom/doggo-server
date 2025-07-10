@@ -29,6 +29,7 @@ def register_user():
                 check_phone_number(cursor, data.get('phone_number'))
                 check_date_of_birth(data.get('date_of_birth'))
                 data['password'] = generate_password_hash(data['password'])
+                print(data['password'])
                 cursor.execute(adding_new_user_query, data)
                 user_id = cursor.fetchone()[0]
                 connection.commit()

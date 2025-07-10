@@ -64,7 +64,7 @@ def get_dog_info():
         "weight": dog_details[5],
         "height": dog_details[6],
         # "image": dog_details[7],
-        "description": dog_details[9]
+        "description": dog_details[8]
     }
 
     return jsonify(dog_data), HTTP_200_OK

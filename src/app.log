@@ -1930,3 +1930,53 @@ LINE 3:                               WHERE collar_id = 76f7c3ae6;
 2024-09-22 13:08:00,438 - werkzeug - INFO -  * Debugger PIN: 795-853-495
 2024-09-22 13:08:26,846 - werkzeug - INFO - 127.0.0.1 - - [22/Sep/2024 13:08:26] "[31m[1mDELETE /api/dog/profile?dog_id=32 HTTP/1.1[0m" 400 -
 2024-09-22 13:09:56,131 - werkzeug - INFO - 127.0.0.1 - - [22/Sep/2024 13:09:56] "DELETE /api/dog/profile?dog_id=32 HTTP/1.1" 200 -
+2025-07-08 23:00:27,376 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.16:5000
+2025-07-08 23:00:27,376 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-08 23:00:27,378 - werkzeug - INFO -  * Restarting with stat
+2025-07-08 23:00:28,959 - werkzeug - WARNING -  * Debugger is active!
+2025-07-08 23:00:28,969 - werkzeug - INFO -  * Debugger PIN: 118-984-239
+2025-07-08 23:00:48,305 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 23:00:48] "[31m[1mPOST /api/user/register HTTP/1.1[0m" 400 -
+2025-07-10 20:18:48,838 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.16:5000
+2025-07-10 20:18:48,839 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-10 20:18:48,840 - werkzeug - INFO -  * Restarting with stat
+2025-07-10 20:18:50,439 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 20:18:50,449 - werkzeug - INFO -  * Debugger PIN: 118-984-239
+2025-07-10 20:19:32,251 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 20:19:32] "[35m[1mGET /api/dog/profile?dog_id=1 HTTP/1.1[0m" 500 -
+2025-07-10 20:21:43,579 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.16:5000
+2025-07-10 20:21:43,579 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-10 20:21:43,580 - werkzeug - INFO -  * Restarting with stat
+2025-07-10 20:21:45,134 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 20:21:45,139 - werkzeug - INFO -  * Debugger PIN: 118-984-239
+2025-07-10 20:21:47,097 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 20:21:47] "[35m[1mGET /api/dog/profile?dog_id=1 HTTP/1.1[0m" 500 -
+2025-07-10 20:22:48,220 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.16:5000
+2025-07-10 20:22:48,220 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-10 20:22:48,222 - werkzeug - INFO -  * Restarting with stat
+2025-07-10 20:22:49,731 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 20:22:49,736 - werkzeug - INFO -  * Debugger PIN: 118-984-239
+2025-07-10 20:22:53,571 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 20:22:53] "GET /api/dog/profile?dog_id=1 HTTP/1.1" 200 -
+2025-07-10 20:23:46,130 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 20:23:46] "[31m[1mDELETE /api/dog/profile?dog_id=2 HTTP/1.1[0m" 400 -
+2025-07-10 20:24:37,188 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 20:24:37] "[31m[1mPUT /api/collar/add HTTP/1.1[0m" 400 -
+2025-07-10 20:24:42,572 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 20:24:42] "[31m[1mPUT /api/collar/add HTTP/1.1[0m" 400 -
+2025-07-10 20:27:30,606 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 20:27:30] "GET /api/collar/availability?collar_id=COLLAR-001 HTTP/1.1" 200 -
+2025-07-10 20:34:39,798 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 20:34:39] "PUT /api/collar/add HTTP/1.1" 200 -
+2025-07-10 20:38:39,272 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.16:5000
+2025-07-10 20:38:39,272 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-10 20:38:39,274 - werkzeug - INFO -  * Restarting with stat
+2025-07-10 20:38:40,855 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 20:38:40,859 - werkzeug - INFO -  * Debugger PIN: 118-984-239
+2025-07-10 20:38:43,453 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 20:38:43] "GET /api/dog/profile?dog_id=1 HTTP/1.1" 200 -
