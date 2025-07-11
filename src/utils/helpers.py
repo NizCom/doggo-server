@@ -75,7 +75,6 @@ def create_fitness(cursor, dog_id, embedded_steps):
     create_fitness_query = f""" INSERT INTO {FITNESS_TABLE} ({DOG_ID_COLUMN}, {FITNESS_DATE_COLUMN}, 
                                 {DISTANCE_COLUMN}, {STEPS_COLUMN}, {CALORIES_COLUMN})
                                 VALUES (%s, %s, %s, %s, %s); """
-
     today_date = date.today()
     dog_weight, dog_height = get_dog_weight_and_height(cursor, dog_id)
 
@@ -308,8 +307,9 @@ def load_last_steps(cursor, dog_id):
     """
 
     cursor.execute(get_last_steps_query, (dog_id, ))
-
-    return int(cursor.fetchone()[0])
+    
+    result = cursor.fetchone()
+    return int(result[0]) if result and result[0] is not None else 0
 
 
 def delete_user_dogs(cursor, user_id):

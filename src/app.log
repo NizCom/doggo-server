@@ -2037,3 +2037,95 @@ LINE 3:                               WHERE collar_id = 76f7c3ae6;
 2025-07-11 09:48:07,166 - werkzeug - INFO - 127.0.0.1 - - [11/Jul/2025 09:48:07] "[35m[1mGET /api/dog/activities/all?dog_id=1&limit=5&offset=0 HTTP/1.1[0m" 500 -
 2025-07-11 09:49:15,590 - werkzeug - INFO - 127.0.0.1 - - [11/Jul/2025 09:49:15] "GET /api/dog/activities/all?dog_id=1&limit=5&offset=0 HTTP/1.1" 200 -
 2025-07-11 09:51:08,435 - werkzeug - INFO -  * Detected change in 'C:\\Users\\nizan\\Desktop\\Nizan\\огоз\\Final project - Doggo\\Doggo\\backend\\src\\routes\\activities_routes.py', reloading
+2025-07-11 09:53:16,864 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.162.168:5000
+2025-07-11 09:53:16,864 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-11 09:53:16,865 - werkzeug - INFO -  * Restarting with stat
+2025-07-11 09:53:18,495 - werkzeug - WARNING -  * Debugger is active!
+2025-07-11 09:53:18,501 - werkzeug - INFO -  * Debugger PIN: 118-984-239
+2025-07-11 09:54:39,160 - werkzeug - INFO - 127.0.0.1 - - [11/Jul/2025 09:54:39] "GET /api/dog/activities/all?dog_id=4&limit=5&offset=0 HTTP/1.1" 200 -
+2025-07-11 09:57:59,080 - src.utils.logger - DEBUG - Values from collar: {'collarID': 'testCollar', 'battery': '4', 'steps': '500'}
+2025-07-11 09:58:02,337 - werkzeug - INFO - 127.0.0.1 - - [11/Jul/2025 09:58:02] "[31m[1mPUT /api/dog/collar_data HTTP/1.1[0m" 400 -
+2025-07-11 10:02:23,826 - src.utils.logger - DEBUG - Values from collar: {'collarID': 'testCollar', 'battery': '4', 'steps': '500'}
+2025-07-11 10:02:27,326 - werkzeug - INFO - 127.0.0.1 - - [11/Jul/2025 10:02:27] "[31m[1mPUT /api/dog/collar_data HTTP/1.1[0m" 400 -
+2025-07-11 10:05:16,944 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.162.168:5000
+2025-07-11 10:05:16,944 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-11 10:05:16,946 - werkzeug - INFO -  * Restarting with stat
+2025-07-11 10:05:18,463 - werkzeug - WARNING -  * Debugger is active!
+2025-07-11 10:05:18,468 - werkzeug - INFO -  * Debugger PIN: 118-984-239
+2025-07-11 10:05:33,374 - src.utils.logger - DEBUG - Values from collar: {'collarID': 'testCollar', 'battery': '4', 'steps': '500'}
+2025-07-11 10:05:36,968 - werkzeug - INFO - 127.0.0.1 - - [11/Jul/2025 10:05:36] "[31m[1mPUT /api/dog/collar_data HTTP/1.1[0m" 400 -
+2025-07-11 10:05:43,475 - werkzeug - INFO -  * Detected change in 'C:\\Users\\nizan\\Desktop\\Nizan\\огоз\\Final project - Doggo\\Doggo\\backend\\src\\routes\\fitness_routes.py', reloading
+2025-07-11 10:06:03,538 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.162.168:5000
+2025-07-11 10:06:03,538 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-11 10:06:03,540 - werkzeug - INFO -  * Restarting with stat
+2025-07-11 10:06:05,141 - werkzeug - WARNING -  * Debugger is active!
+2025-07-11 10:06:05,146 - werkzeug - INFO -  * Debugger PIN: 118-984-239
+2025-07-11 10:06:15,094 - src.utils.logger - DEBUG - Values from collar: {'collarID': 'testCollar', 'battery': '4', 'steps': '500'}
+2025-07-11 10:06:18,655 - werkzeug - INFO - 127.0.0.1 - - [11/Jul/2025 10:06:18] "[31m[1mPUT /api/dog/collar_data HTTP/1.1[0m" 400 -
+2025-07-11 10:07:05,338 - werkzeug - INFO -  * Detected change in 'C:\\Users\\nizan\\Desktop\\Nizan\\огоз\\Final project - Doggo\\Doggo\\backend\\src\\routes\\fitness_routes.py', reloading
+2025-07-11 10:07:10,805 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.162.168:5000
+2025-07-11 10:07:10,805 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-11 10:07:10,806 - werkzeug - INFO -  * Restarting with stat
+2025-07-11 10:07:12,296 - werkzeug - WARNING -  * Debugger is active!
+2025-07-11 10:07:12,300 - werkzeug - INFO -  * Debugger PIN: 118-984-239
+2025-07-11 10:07:12,811 - src.utils.logger - DEBUG - Values from collar: {'collarID': 'testCollar', 'battery': '4', 'steps': '500'}
+2025-07-11 10:07:16,707 - werkzeug - INFO - 127.0.0.1 - - [11/Jul/2025 10:07:16] "[31m[1mPUT /api/dog/collar_data HTTP/1.1[0m" 400 -
+2025-07-11 10:08:01,265 - werkzeug - INFO -  * Detected change in 'C:\\Users\\nizan\\Desktop\\Nizan\\огоз\\Final project - Doggo\\Doggo\\backend\\src\\utils\\helpers.py', reloading
+2025-07-11 10:09:05,394 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.162.168:5000
+2025-07-11 10:09:05,394 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-11 10:09:05,397 - werkzeug - INFO -  * Restarting with stat
+2025-07-11 10:09:06,965 - werkzeug - WARNING -  * Debugger is active!
+2025-07-11 10:09:06,969 - werkzeug - INFO -  * Debugger PIN: 118-984-239
+2025-07-11 10:09:08,830 - src.utils.logger - DEBUG - Values from collar: {'collarID': 'testCollar', 'battery': '4', 'steps': '500'}
+2025-07-11 10:09:11,903 - werkzeug - INFO - 127.0.0.1 - - [11/Jul/2025 10:09:11] "[31m[1mPUT /api/dog/collar_data HTTP/1.1[0m" 400 -
+2025-07-11 10:09:38,269 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.162.168:5000
+2025-07-11 10:09:38,269 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-11 10:09:38,271 - werkzeug - INFO -  * Restarting with stat
+2025-07-11 10:09:39,873 - werkzeug - WARNING -  * Debugger is active!
+2025-07-11 10:09:39,877 - werkzeug - INFO -  * Debugger PIN: 118-984-239
+2025-07-11 10:09:44,251 - src.utils.logger - DEBUG - Values from collar: {'collarID': 'testCollar', 'battery': '4', 'steps': '500'}
+2025-07-11 10:09:47,955 - werkzeug - INFO - 127.0.0.1 - - [11/Jul/2025 10:09:47] "[31m[1mPUT /api/dog/collar_data HTTP/1.1[0m" 400 -
+2025-07-11 10:10:03,458 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.162.168:5000
+2025-07-11 10:10:03,458 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-11 10:10:03,460 - werkzeug - INFO -  * Restarting with stat
+2025-07-11 10:10:04,986 - werkzeug - WARNING -  * Debugger is active!
+2025-07-11 10:10:04,992 - werkzeug - INFO -  * Debugger PIN: 118-984-239
+2025-07-11 10:10:06,416 - src.utils.logger - DEBUG - Values from collar: {'collarID': 'testCollar', 'battery': '4', 'steps': '500'}
+2025-07-11 10:10:09,464 - werkzeug - INFO - 127.0.0.1 - - [11/Jul/2025 10:10:09] "[31m[1mPUT /api/dog/collar_data HTTP/1.1[0m" 400 -
+2025-07-11 10:10:43,778 - werkzeug - INFO -  * Detected change in 'C:\\Users\\nizan\\Desktop\\Nizan\\огоз\\Final project - Doggo\\Doggo\\backend\\src\\utils\\helpers.py', reloading
+2025-07-11 10:18:02,597 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.162.168:5000
+2025-07-11 10:18:02,597 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-11 10:18:02,599 - werkzeug - INFO -  * Restarting with stat
+2025-07-11 10:18:04,208 - werkzeug - WARNING -  * Debugger is active!
+2025-07-11 10:18:04,211 - werkzeug - INFO -  * Debugger PIN: 118-984-239
+2025-07-11 10:18:30,998 - werkzeug - INFO - 127.0.0.1 - - [11/Jul/2025 10:18:30] "[31m[1mGET /api/dog/fitness?dog_id=40&date=2024-09-08 HTTP/1.1[0m" 400 -
+2025-07-11 10:18:36,637 - werkzeug - INFO - 127.0.0.1 - - [11/Jul/2025 10:18:36] "[31m[1mGET /api/dog/fitness?dog_id=4&date=2024-09-08 HTTP/1.1[0m" 400 -
+2025-07-11 10:20:43,522 - werkzeug - INFO - 127.0.0.1 - - [11/Jul/2025 10:20:43] "GET /api/dog/fitness?dog_id=4&date=2024-09-08 HTTP/1.1" 200 -
+2025-07-11 10:21:30,205 - werkzeug - INFO - 127.0.0.1 - - [11/Jul/2025 10:21:30] "GET /api/dog/activities?activity_id=2 HTTP/1.1" 200 -
+2025-07-11 10:24:46,372 - src.utils.logger - DEBUG - Values from collar: {'collarID': 'testCollar', 'battery': '4', 'steps': '500'}
+2025-07-11 10:24:50,301 - werkzeug - INFO - 127.0.0.1 - - [11/Jul/2025 10:24:50] "[31m[1mPUT /api/dog/collar_data HTTP/1.1[0m" 400 -
+2025-07-11 10:25:14,271 - werkzeug - INFO -  * Detected change in 'C:\\Users\\nizan\\Desktop\\Nizan\\огоз\\Final project - Doggo\\Doggo\\backend\\src\\utils\\helpers.py', reloading

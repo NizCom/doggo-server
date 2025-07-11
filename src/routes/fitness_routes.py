@@ -62,7 +62,6 @@ def data_from_collar():
                 dog_id = get_dog_id_by_collar_id(cursor, collar_id)
                 update_collar_connection(cursor, collar_id, not CONNECTED_TO_MOBILE)
                 update_battery_level(cursor, collar_id, battery_level)
-
                 if does_exist_by_date(cursor, FITNESS_TABLE, DOG_ID_COLUMN, dog_id, FITNESS_DATE_COLUMN, today_date):
                     update_fitness(cursor, dog_id, embedded_steps)
                 else:
