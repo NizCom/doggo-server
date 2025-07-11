@@ -39,8 +39,10 @@ def get_dog_activities_list():
         return "", HTTP_204_STATUS_NO_CONTENT
     else:
         for activity_dict in list_of_activity_dicts:
-            activity_dict['distance'] = round(activity_dict['distance'], 2)
-            activity_dict['calories_burned'] = int(activity_dict['calories_burned'])
+            activity_dict['distance'] = round(activity_dict['distance'] if activity_dict['distance'] is not None else 0, 2)
+            activity_dict['calories_burned'] = int(activity_dict['calories_burned'] if activity_dict['calories_burned'] is not None else 0)
+            # activity_dict['distance'] = round(activity_dict['distance'], 2)
+            # activity_dict['calories_burned'] = int(activity_dict['calories_burned'])
 
     return jsonify(list_of_activity_dicts), HTTP_200_OK
 

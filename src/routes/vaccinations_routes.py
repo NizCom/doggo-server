@@ -53,7 +53,7 @@ def add_dog_vaccination():
         %(dosage)s, %(vet_name)s, %(next_vaccination)s, %(notes)s)
         RETURNING vaccination_id;
     """
-
+    print("DADA")
     try:
         if not required_data.issubset(data.keys()):
             missing_fields = required_data - data.keys()
@@ -61,6 +61,7 @@ def add_dog_vaccination():
 
         dog_id = data.get("dog_id")
         db = load_database_config()
+        print("DADA")
 
         with psycopg2.connect(**db) as connection:
             with connection.cursor() as cursor:
@@ -70,6 +71,7 @@ def add_dog_vaccination():
                 connection.commit()
     except (Exception, ValueError, psycopg2.DatabaseError) as error:
         return jsonify({"error": str(error)}), HTTP_400_BAD_REQUEST
+    print("DADA")
 
     return jsonify({"vaccination_id": new_vaccination_id}), HTTP_201_CREATED
 

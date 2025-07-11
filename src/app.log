@@ -1980,3 +1980,60 @@ LINE 3:                               WHERE collar_id = 76f7c3ae6;
 2025-07-10 20:38:40,855 - werkzeug - WARNING -  * Debugger is active!
 2025-07-10 20:38:40,859 - werkzeug - INFO -  * Debugger PIN: 118-984-239
 2025-07-10 20:38:43,453 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 20:38:43] "GET /api/dog/profile?dog_id=1 HTTP/1.1" 200 -
+2025-07-10 21:08:43,593 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.16:5000
+2025-07-10 21:08:43,593 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-10 21:08:43,595 - werkzeug - INFO -  * Restarting with stat
+2025-07-10 21:08:45,053 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 21:08:45,058 - werkzeug - INFO -  * Debugger PIN: 118-984-239
+2025-07-10 21:08:47,812 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 21:08:47] "[31m[1mPOST /api/dog/vaccinations?dog_id=1&limit=5&offset=0 HTTP/1.1[0m" 415 -
+2025-07-10 21:09:23,518 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.16:5000
+2025-07-10 21:09:23,518 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-10 21:09:23,520 - werkzeug - INFO -  * Restarting with stat
+2025-07-10 21:09:25,176 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 21:09:25,179 - werkzeug - INFO -  * Debugger PIN: 118-984-239
+2025-07-10 21:09:26,017 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 21:09:26] "[31m[1mPOST /api/dog/vaccinations?dog_id=1&limit=5&offset=0 HTTP/1.1[0m" 415 -
+2025-07-10 21:09:34,868 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 21:09:34] "[31m[1mPOST /api/dog/vaccinations?dog_id=1&limit=0&offset=0 HTTP/1.1[0m" 415 -
+2025-07-11 09:37:36,841 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.162.168:5000
+2025-07-11 09:37:36,841 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-11 09:37:36,847 - werkzeug - INFO -  * Restarting with stat
+2025-07-11 09:37:38,357 - werkzeug - WARNING -  * Debugger is active!
+2025-07-11 09:37:38,362 - werkzeug - INFO -  * Debugger PIN: 118-984-239
+2025-07-11 09:40:02,085 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.162.168:5000
+2025-07-11 09:40:02,085 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-11 09:40:02,087 - werkzeug - INFO -  * Restarting with stat
+2025-07-11 09:40:03,563 - werkzeug - WARNING -  * Debugger is active!
+2025-07-11 09:40:03,566 - werkzeug - INFO -  * Debugger PIN: 118-984-239
+2025-07-11 09:40:29,034 - werkzeug - INFO - 127.0.0.1 - - [11/Jul/2025 09:40:29] "GET /api/dog/activities/all?dog_id=1&limit=5&offset=0 HTTP/1.1" 200 -
+2025-07-11 09:40:36,330 - werkzeug - INFO -  * Detected change in 'C:\\Users\\nizan\\Desktop\\Nizan\\огоз\\Final project - Doggo\\Doggo\\backend\\src\\routes\\activities_routes.py', reloading
+2025-07-11 09:40:42,633 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.162.168:5000
+2025-07-11 09:40:42,634 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-11 09:40:42,635 - werkzeug - INFO -  * Restarting with stat
+2025-07-11 09:40:44,430 - werkzeug - WARNING -  * Debugger is active!
+2025-07-11 09:40:44,434 - werkzeug - INFO -  * Debugger PIN: 118-984-239
+2025-07-11 09:40:46,646 - werkzeug - INFO - 127.0.0.1 - - [11/Jul/2025 09:40:46] "[35m[1mGET /api/dog/activities/all?dog_id=1&limit=5&offset=0 HTTP/1.1[0m" 500 -
+2025-07-11 09:47:34,336 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.162.168:5000
+2025-07-11 09:47:34,336 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-11 09:47:34,338 - werkzeug - INFO -  * Restarting with stat
+2025-07-11 09:47:35,834 - werkzeug - WARNING -  * Debugger is active!
+2025-07-11 09:47:35,837 - werkzeug - INFO -  * Debugger PIN: 118-984-239
+2025-07-11 09:48:07,166 - werkzeug - INFO - 127.0.0.1 - - [11/Jul/2025 09:48:07] "[35m[1mGET /api/dog/activities/all?dog_id=1&limit=5&offset=0 HTTP/1.1[0m" 500 -
+2025-07-11 09:49:15,590 - werkzeug - INFO - 127.0.0.1 - - [11/Jul/2025 09:49:15] "GET /api/dog/activities/all?dog_id=1&limit=5&offset=0 HTTP/1.1" 200 -
+2025-07-11 09:51:08,435 - werkzeug - INFO -  * Detected change in 'C:\\Users\\nizan\\Desktop\\Nizan\\огоз\\Final project - Doggo\\Doggo\\backend\\src\\routes\\activities_routes.py', reloading
